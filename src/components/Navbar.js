@@ -10,7 +10,7 @@ const Navbar = () => {
       <div>
         <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: '#0F2661', color: 'white',marginRight:'20px' }}>
           <div className="container-fluid">
-            <span className="navbar-brand mb-0 h1" style={{ color:'white' , fontFamily: 'Lemon', fontSize: '24px' }}>SHG - CONNECT</span>
+            <span className="navbar-brand mb-0 h1" style={{ color:'white' , fontFamily: 'Lemon', fontSize: '32px' , fontWeight:'lighter' }}>SHG CONNECT</span>
             <button
               className="navbar-toggler"
               type="button"
