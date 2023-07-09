@@ -50,4 +50,4 @@ const AnimatedText = ({text,className=''}) => {
     </div>
   )
     }
-  export default AnimatedText
+  export default AnimatedText;

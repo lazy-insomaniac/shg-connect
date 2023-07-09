@@ -25,4 +25,4 @@ const Catalogbar = () => {
   )
 }
 
-export default Catalogbar
+export default Catalogbar;

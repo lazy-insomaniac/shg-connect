@@ -1,6 +1,4 @@
 import React from "react";
-import Layout from "./Layout";
-import AnimatedText from "./AnimatedText";
 import { motion } from "framer-motion";
 import 'typeface-roboto';
 

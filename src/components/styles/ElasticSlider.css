@@ -1,0 +1,30 @@
+.slider-container {
+  position: relative;
+}
+
+.slider-images {
+  position: relative;
+  perspective: 1000px;
+}
+
+.slider-images img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-origin: right center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-images .current-image {
+  z-index: 2;
+  transform: rotateY(0deg) translateZ(0);
+}
+
+.slider-images .next-image {
+  z-index: 1;
+  transform: rotateY(-15deg) translateZ(-100px);
+}
+
