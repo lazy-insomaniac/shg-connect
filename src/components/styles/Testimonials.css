@@ -1,0 +1,43 @@
+.testimonials-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .testimonial-item {
+    width: 400px;
+    height: 450px;
+    background: #2B3D7E;
+    border-radius: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .testimonial-item img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .testimonial-item h3 {
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  .testimonial-item p {
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    margin: 0;
+  }
+  
