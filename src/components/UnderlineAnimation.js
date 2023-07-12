@@ -19,8 +19,8 @@ const UnderlineAnimation = ({ text }) => {
       onMouseLeave={handleHoverEnd}
       style={{
         position: 'relative',
-        top:'7px',
-        marginInline:'40px',
+        top: '0.4375rem', // 7px / 16px = 0.4375rem
+        marginInline: '2.5rem', // 40px / 16px = 2.5rem
         display: 'inline-block',
         textDecoration: 'none',
         color: 'white',
@@ -30,10 +30,10 @@ const UnderlineAnimation = ({ text }) => {
       <motion.span
         style={{
           position: 'absolute',
-          bottom: -2,
+          bottom: '-0.125rem', // -2px / 16px = -0.125rem
           left: 0,
           width: isHovered ? '100%' : '0%',
-          height: '2px',
+          height: '0.125rem', // 2px / 16px = 0.125rem
           background: 'white',
           transition: 'width 0.3s ease-out',
         }}

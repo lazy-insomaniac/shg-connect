@@ -1,13 +1,30 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
   return (
-    <div className ="inline-block" style = {{marginBottom : '10px'}}>
-      <img style={{width: '80px', height : '60px', borderRadius:'5px ', marginLeft:'10px' ,marginRight:'30px'}} src={require('./images/logo1.jpg')}/>
-      <img style={{width: '80px', height : '60px',borderRadius:'5px '}} src={require('./images/iitr_logo.jpg')}/>
-      
+    <div  style={{ display: 'flex' , marginBottom: '1rem' }}>
+      <img
+        style={{
+          width: '5rem',
+          height: '3.75rem',
+          borderRadius: '0.3125rem',
+          marginLeft: '0.625rem',
+          marginRight: '1.875rem'
+        }}
+        src={require('./images/logo1.jpg')}
+        alt="Logo 1"
+      />
+      <img
+        style={{
+          width: '5rem',
+          height: '3.75rem',
+          borderRadius: '0.3125rem'
+        }}
+        src={require('./images/iitr_logo.jpg')}
+        alt="IITR Logo"
+      />
     </div>
-  )
-}
+  );
+};
 
 export default Header;
