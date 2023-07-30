@@ -4,9 +4,8 @@ const Footer = () => {
   return (
     <div style={{ width: '100%', background: 'linear-gradient(96deg, #142A64 0%, #B2C3DB 100%)', borderRadius: 7 }}>
       <div style={{ width: '100%', marginLeft: '100px' }}>
-        <span style={{ color: 'white', fontSize: 64, fontFamily: 'Roboto', fontWeight: '700', wordWrap: 'break-word', display : 'flex' , marginBottom : '-2.5rem'  }}>Contribute with us .</span>
-        <span style={{ color: 'white', fontSize: 32, fontFamily: 'Roboto', fontWeight: '700', wordWrap: 'break-word', display : 'flex'  }}><br />YOUR DREAMS ARE IN YOUR HANDS NOW BRING THEM TO LIFE<br /></span>
-        <span style={{ color: 'white', fontSize: 64, fontFamily: 'Roboto', fontWeight: '700', wordWrap: 'break-word' }}>   </span>
+        <span style={{ color: 'white', fontSize: '4rem', fontFamily: 'Roboto', fontWeight: '700', wordWrap: 'break-word', display : 'flex' , marginBottom : '-2.5rem'  }}>Contribute with us .</span>
+        <span style={{ color: 'white', fontSize: '2rem', fontFamily: 'Roboto', fontWeight: '700', wordWrap: 'break-word', display : 'flex'  }}><br />YOUR DREAMS ARE IN YOUR HANDS NOW BRING THEM TO LIFE<br /></span>
       </div>
       <div>
         <footer className="text-center text-lg-start text-light">

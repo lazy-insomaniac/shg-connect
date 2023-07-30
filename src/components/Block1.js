@@ -50,8 +50,8 @@ const Block1 = () => {
                   duration: 1.5,
                 },
               }}
-            >We manufacture the products with ensured
-              product quality as well as safety and
+            >We manufacture the products with ensured<br/>
+              product quality as well as safety and<br/>
               precautions....
             </motion.p>
             <div className="flex">
@@ -99,7 +99,7 @@ const Block1 = () => {
           </div>
         </div>
         <div className="w-1/2 flex justify-end" style={{ marginLeft: '4.5rem', marginTop: '1.25rem' }}>
-          <img src={require("./images/bg-comp.png")} alt="comp image" style={{ height: '18.75rem', width: '25rem' }} />
+          <img src={require("./images/bg-comp.png")} alt="comp image" style={{ height: 'auto', width: '90%' }} />
         </div>
       </div>
     </>

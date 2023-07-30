@@ -1,5 +1,17 @@
-@font-face {
-    font-family: 'Lemon';
-    src: url('./fonts/lemon.ttf') format('truetype');
-  }
   
+  @media (max-width: 576px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+    .navbar-nav {
+      padding-top: 0.5rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.8rem;
+    }
+    .navbar-nav {
+      padding-top: 1rem;
+    }
+  }

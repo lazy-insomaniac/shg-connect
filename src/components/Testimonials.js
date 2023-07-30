@@ -2,9 +2,9 @@ import React from 'react';
 
 const Testimonials = () => {
   return (
-    <div className="items justify-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
-      <div style={{ width: '25rem', height: '28.125rem', background: '#2B3D7E', borderRadius: '3.25rem', display: 'block', textAlign: 'center', marginRight: '1.25rem' }}>
-        <img style={{ borderRadius: '50%', marginTop: '-5rem' }} src={require('./images/adi.png')} alt="Profile" />
+    <div  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', maxHeight: '100vh', marginTop:'5vh' ,marginBottom:'5vh' }}>
+      <div style={{ width: '25rem', height: '28.125rem', background: '#2B3D7E', borderRadius: '3.25rem', display: 'block', textAlign: 'center', marginRight: '1.25rem', alignItems: 'center' }}>
+        <img style={{ borderRadius: '50%', marginTop: '-5rem' ,width:'48%' , position:'relative'}} src={require('./images/adi.png')} alt="Profile" />
         <h3 style={{ color: 'white', fontSize: '1.25rem', fontFamily: 'Roboto', fontWeight: '400', marginTop: '3.125rem' }}>ADITYA SHARMA</h3>
         <p style={{ color: 'white', fontSize: '1.25rem', fontFamily: 'Roboto', fontWeight: '400' }}>
           Lorem ipsum dolor sit amet,
@@ -17,7 +17,7 @@ const Testimonials = () => {
         </p>
       </div>
       <div style={{ width: '25rem', height: '28.125rem', background: '#2B3D7E', borderRadius: '3.25rem', display: 'block', textAlign: 'center', marginRight: '1.25rem' }}>
-        <img style={{ borderRadius: '50%', marginTop: '-5rem' }} src={require('./images/adi.png')} alt="Profile" />
+        <img style={{ borderRadius: '50%', marginTop: '-5rem' ,width:'48%' }} src={require('./images/adi.png')} alt="Profile" />
         <h3 style={{ color: 'white', fontSize: '1.25rem', fontFamily: 'Roboto', fontWeight: '400', marginTop: '3.125rem' }}>ADITYA SHARMA</h3>
         <p style={{ color: 'white', fontSize: '1.25rem', fontFamily: 'Roboto', fontWeight: '400' }}>
           Lorem ipsum dolor sit amet,
@@ -29,8 +29,8 @@ const Testimonials = () => {
           malesuada felis malesuada vel.
         </p>
       </div>
-      <div style={{ width: '22.5rem', height: '28.125rem', background: '#2B3D7E', borderRadius: '3.25rem', display: 'block', textAlign: 'center' }}>
-        <img style={{ borderRadius: '50%', marginTop: '-5rem' }} src={require('./images/adi.png')} alt="Profile" />
+      <div style={{ width: '25rem', height: '28.125rem', background: '#2B3D7E', borderRadius: '3.25rem', display: 'block', textAlign: 'center' }}>
+        <img style={{ borderRadius: '50%', marginTop: '-5rem',width:'48%' }} src={require('./images/adi.png')} alt="Profile" />
         <h3 style={{ color: 'white', fontSize: '1.25rem', fontFamily: 'Roboto', fontWeight: '400', marginTop: '3.125rem' }}>ADITYA SHARMA</h3>
         <p style={{ color: 'white', fontSize: '1.25rem', fontFamily: 'Roboto', fontWeight: '400' }}>
           Lorem ipsum dolor sit amet,

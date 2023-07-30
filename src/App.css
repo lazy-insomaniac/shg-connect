@@ -41,3 +41,26 @@
   font-family: 'Lemon';
   src: url('./content/fonts/Lemon-Regular.ttf') format('truetype');
 }
+
+ 
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+  
+}
+
+
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width: 450px) {
+  html {
+    font-size: 4px;
+  }
+}

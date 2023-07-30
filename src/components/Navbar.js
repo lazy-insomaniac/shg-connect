@@ -1,28 +1,35 @@
-import React from 'react';
-// import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import UnderlineAnimation from './UnderlineAnimation';
+import React, { useState } from "react";
+import UnderlineAnimation from "./UnderlineAnimation";
 
 const Navbar = () => {
   return (
     <>
-      <div>
+      <div style={{ display: "flex" }}>
         <nav
           className="navbar navbar-expand-lg navbar-light"
-          style={{ backgroundColor: '#0F2661', color: 'white', marginRight: '1.25rem' }}
+          style={{
+            backgroundColor: "#0F2661",
+            color: "white",
+            marginRight: "1.25rem", // 1.25rem = 1.25 * 16px = 20px
+          }}
         >
           <div className="container-fluid">
             <span
               className="navbar-brand mb-0 h1"
-              style={{ color: 'white', fontFamily: 'Lemon', fontSize: '2rem', fontWeight: 'lighter' }}
+              style={{
+                color: "white",
+                fontFamily: "Lemon",
+                fontSize: "2rem", // 2rem = 2 * 16px = 32px
+                fontWeight: "lighter",
+              }}
             >
               SHG CONNECT
             </span>
             <button
               className="navbar-toggler"
               type="button"
-              data-mdb-toggle="collapse"
-              data-mdb-target="#navbarRightAlignExample"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarRightAlignExample"
               aria-controls="navbarRightAlignExample"
               aria-expanded="false"
               aria-label="Toggle navigation"
@@ -30,8 +37,11 @@ const Navbar = () => {
               <i className="fas fa-bars"></i>
             </button>
 
-            <div className="collapse navbar-collapse" style={{ color: 'white' }} id="navbarRightAlignExample">
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <div
+              className="collapse navbar-collapse justify-content-end"
+              id="navbarRightAlignExample"
+            >
+              <ul className="navbar-nav">
                 <li className="nav-item">
                   <UnderlineAnimation text="HOME" />
                 </li>
@@ -45,7 +55,10 @@ const Navbar = () => {
                   <UnderlineAnimation text="CONTACT" />
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link disabled" style={{ color: 'white', marginRight: '0.625rem' }}>
+                  <a
+                    className="nav-link disabled"
+                    style={{ color: "white", marginRight: "0.625rem" }} // 0.625rem = 0.625 * 16px = 10px
+                  >
                     A/c
                   </a>
                 </li>
@@ -59,4 +72,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
