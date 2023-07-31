@@ -1,44 +1,26 @@
 import React, { useState } from "react";
 import UnderlineAnimation from "./UnderlineAnimation";
+import "tailwindcss/tailwind.css"; // Import Tailwind CSS styles
+import Header from "./Header";
 
 const Navbar = () => {
   return (
     <>
-      <div style={{ display: "flex" }}>
+      <div className="flex flex-col md:flex-row">
+        <Header />
         <nav
-          className="navbar navbar-expand-lg navbar-light"
-          style={{
-            backgroundColor: "#0F2661",
-            color: "white",
-            marginRight: "1.25rem", // 1.25rem = 1.25 * 16px = 20px
-          }}
+          className="navbar navbar-expand-lg navbar-light text-white md:ml-5 flex-grow"
+          style={{ backgroundColor: "#0F2661" }}
         >
           <div className="container-fluid">
             <span
-              className="navbar-brand mb-0 h1"
-              style={{
-                color: "white",
-                fontFamily: "Lemon",
-                fontSize: "2rem", // 2rem = 2 * 16px = 32px
-                fontWeight: "lighter",
-              }}
+              className="navbar-brand mb-0 h1 text-white text-4xl font-light"
+              style={{ fontFamily: "Lemon" }}
             >
               SHG CONNECT
             </span>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarRightAlignExample"
-              aria-controls="navbarRightAlignExample"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i className="fas fa-bars"></i>
-            </button>
-
             <div
-              className="collapse navbar-collapse justify-content-end"
+              className="items-center justify-center md:justify-start md:pl-4 md:ml-5"
               id="navbarRightAlignExample"
             >
               <ul className="navbar-nav">
@@ -55,12 +37,7 @@ const Navbar = () => {
                   <UnderlineAnimation text="CONTACT" />
                 </li>
                 <li className="nav-item">
-                  <a
-                    className="nav-link disabled"
-                    style={{ color: "white", marginRight: "0.625rem" }} // 0.625rem = 0.625 * 16px = 10px
-                  >
-                    A/c
-                  </a>
+                  <a className="nav-link disabled text-white mr-4">A/c</a>
                 </li>
               </ul>
             </div>
@@ -72,5 +49,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-

@@ -13,32 +13,22 @@ const UnderlineAnimation = ({ text }) => {
   };
 
   return (
+    <motion.div style={{margin:'0.5rem 2rem',textDecoration: 'none',
+    display: 'block',
+    width: '100%'}}>
     <motion.a
       href="#"
       onMouseEnter={handleHoverStart}
       onMouseLeave={handleHoverEnd}
-      style={{
-        position: 'relative',
-        top: '0.4375rem', // 7px / 16px = 0.4375rem
-        marginInline: '2.5rem', // 40px / 16px = 2.5rem
-        display: 'inline-block',
-        textDecoration: 'none',
-        color: 'white',
-      }}
+      className="relative inline-block text-white no-underline"
     >
       {text}
       <motion.span
-        style={{
-          position: 'absolute',
-          bottom: '-0.125rem', // -2px / 16px = -0.125rem
-          left: 0,
-          width: isHovered ? '100%' : '0%',
-          height: '0.125rem', // 2px / 16px = 0.125rem
-          background: 'white',
-          transition: 'width 0.3s ease-out',
-        }}
+        className="absolute bottom-0 left-0 w-full h-0.5 bg-white transition-width duration-300 ease-out"
+        style={{ width: isHovered ? '100%' : '0%' }}
       />
     </motion.a>
+    </motion.div>
   );
 };
 

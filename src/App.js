@@ -13,16 +13,16 @@ function App() {
     <div className="App">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <body style={{ width: '100%', height: '100%', margin: '0', padding: '0', overflow: 'hidden', backgroundColor: '#0F2661', color: 'white' }}>
-        <Header />
+        
         <Navbar />
-        <body style={{ backgroundColor: '#0F2661', color: 'white', margin: '0 8.75rem' }}>
+        <body style={{ backgroundColor: '#0F2661', color: 'white', margin: '2rem 8.75rem' }}>
           <Block1 style = {{marginBottom :'2.5rem'}}/>
           <p style={{ margin: '1.25rem 0', fontFamily: 'Caladea', fontSize: '1.5rem' , display : ' flex' }}>Categories featured</p>
           <Catalogbar />
           <ElasticSlider />
           <Products />
           <div style={{ textAlign: 'center', width: '100%', color: 'white', fontSize: '1.25rem', fontFamily: 'Roboto', fontWeight: '400', wordWrap: 'break-word',marginBottom :'2.5rem' }}>TESTIMONIALS</div>
-          <p style={{ width: '100%', textAlign: 'center', color: 'white', fontSize: '4rem', fontFamily: 'Roboto', fontWeight: '500', wordWrap: 'break-word',marginBottom:'2.5rem' }}>Read What Others<br />Have To say.</p>
+          <p style={{ width: '100%', textAlign: 'center', color: 'white', fontSize: '4rem', fontFamily: 'Roboto', fontWeight: '500', wordWrap: 'break-word',marginBottom:'7rem' }}>Read What Others<br />Have To say.</p>
           <Testimonials />
         </body>
         <Footer />

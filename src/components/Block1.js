@@ -68,6 +68,7 @@ const Block1 = () => {
                   fontFamily: "Hammersmith One",
                   fontWeight: "400",
                   wordWrap: "break-word",
+                  alignItems:'center',
                 }}
                 whileHover={{ scale: 1.1 }}
               >
@@ -90,10 +91,10 @@ const Block1 = () => {
                   borderTop: "0.03125rem #85E3E3 solid",
                   borderRight: "0.03125rem #85E3E3 solid",
                   borderBottom: "0.03125rem #85E3E3 solid",
+                  alignItems: "center",
                 }}
                 whileHover={{ scale: 1.1 }}
-              >
-                SELLERS
+              >SELLERS
               </motion.button>
             </div>
           </div>

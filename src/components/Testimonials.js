@@ -2,11 +2,15 @@ import React from 'react';
 
 const Testimonials = () => {
   return (
-    <div  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', maxHeight: '100vh', marginTop:'5vh' ,marginBottom:'5vh' }}>
-      <div style={{ width: '25rem', height: '28.125rem', background: '#2B3D7E', borderRadius: '3.25rem', display: 'block', textAlign: 'center', marginRight: '1.25rem', alignItems: 'center' }}>
-        <img style={{ borderRadius: '50%', marginTop: '-5rem' ,width:'48%' , position:'relative'}} src={require('./images/adi.png')} alt="Profile" />
-        <h3 style={{ color: 'white', fontSize: '1.25rem', fontFamily: 'Roboto', fontWeight: '400', marginTop: '3.125rem' }}>ADITYA SHARMA</h3>
-        <p style={{ color: 'white', fontSize: '1.25rem', fontFamily: 'Roboto', fontWeight: '400' }}>
+    <div className="flex justify-center items-center max-h-screen mt-5 mb-5">
+      <div className="w-72 h-[28.125rem] bg-blue-900 text-white text-center mr-5 flex flex-col items-center justify-center" style={{borderRadius:'3.5rem'}}>
+        <img
+          className="rounded-full mt-[-5rem] w-[48%] relative"
+          src={require('./images/adi.png')}
+          alt="Profile"
+        />
+        <h3 className="text-white text-lg font-roboto font-medium mt-10">ADITYA SHARMA</h3>
+        <p className="text-white text-lg font-roboto font-normal">
           Lorem ipsum dolor sit amet,
           <br />
           consectetur adipiscing elit.
@@ -16,10 +20,14 @@ const Testimonials = () => {
           malesuada felis malesuada vel.
         </p>
       </div>
-      <div style={{ width: '25rem', height: '28.125rem', background: '#2B3D7E', borderRadius: '3.25rem', display: 'block', textAlign: 'center', marginRight: '1.25rem' }}>
-        <img style={{ borderRadius: '50%', marginTop: '-5rem' ,width:'48%' }} src={require('./images/adi.png')} alt="Profile" />
-        <h3 style={{ color: 'white', fontSize: '1.25rem', fontFamily: 'Roboto', fontWeight: '400', marginTop: '3.125rem' }}>ADITYA SHARMA</h3>
-        <p style={{ color: 'white', fontSize: '1.25rem', fontFamily: 'Roboto', fontWeight: '400' }}>
+      <div className="w-72 h-[28.125rem] bg-blue-900  text-white text-center mr-5 flex flex-col items-center justify-center" style={{borderRadius:'3.5rem'}}>
+        <img
+          className="rounded-full mt-[-5rem] w-[48%]"
+          src={require('./images/adi.png')}
+          alt="Profile"
+        />
+        <h3 className="text-white text-lg font-roboto font-medium mt-10">ADITYA SHARMA</h3>
+        <p className="text-white text-lg font-roboto font-normal">
           Lorem ipsum dolor sit amet,
           <br />
           consectetur adipiscing elit.
@@ -29,10 +37,14 @@ const Testimonials = () => {
           malesuada felis malesuada vel.
         </p>
       </div>
-      <div style={{ width: '25rem', height: '28.125rem', background: '#2B3D7E', borderRadius: '3.25rem', display: 'block', textAlign: 'center' }}>
-        <img style={{ borderRadius: '50%', marginTop: '-5rem',width:'48%' }} src={require('./images/adi.png')} alt="Profile" />
-        <h3 style={{ color: 'white', fontSize: '1.25rem', fontFamily: 'Roboto', fontWeight: '400', marginTop: '3.125rem' }}>ADITYA SHARMA</h3>
-        <p style={{ color: 'white', fontSize: '1.25rem', fontFamily: 'Roboto', fontWeight: '400' }}>
+      <div className="w-72 h-[28.125rem] bg-blue-900 text-white text-center flex flex-col items-center justify-center" style={{borderRadius:'3.5rem'}}>
+        <img
+          className="rounded-full mt-[-5rem] w-[48%]"
+          src={require('./images/adi.png')}
+          alt="Profile"
+        />
+        <h3 className="text-white text-lg font-roboto font-medium mt-10">ADITYA SHARMA</h3>
+        <p className="text-white text-lg font-roboto font-normal">
           Lorem ipsum dolor sit amet,
           <br />
           consectetur adipiscing elit.
